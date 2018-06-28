@@ -145,11 +145,10 @@ public class AesUtil {
 	}
 
 	public static void main(String[] args) {
-		AesUtil se = new AesUtil();
 		String source = "签名原文是:为二位二位vfwwr23r32434为二位二位vfwwr23r32434为二位二位vfwwr23r32434为二位二位vfwwr23r32434";
-		String secret = se.AESEncode(key, source);
+		String secret = AESEncode(key, source);
 		System.out.println("加密后结果:" + secret);
-		System.out.println("解密后结果:" + se.AESDncode(key, secret));
+		System.out.println("解密后结果:" + AESDncode(key, secret));
 	}
 
 }
