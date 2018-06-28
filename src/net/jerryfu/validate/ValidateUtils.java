@@ -14,8 +14,6 @@ import java.util.regex.Pattern;
 
 import org.apache.commons.lang.StringUtils;
 
-import net.jerryfu.idcard.IDCardUtils;
-
 /**
  * 验证工具类
  * @author jerryfu

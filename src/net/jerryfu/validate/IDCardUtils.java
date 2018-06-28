@@ -1,4 +1,4 @@
-package net.jerryfu.idcard;
+package net.jerryfu.validate;
 
 import java.util.regex.Pattern;
 
