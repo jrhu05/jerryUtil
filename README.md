@@ -30,8 +30,6 @@ qRCode：二维码生成工具
 
 random：常用随机码生成工具
 
-spider：webmagic爬虫demo
-
 string：常用字符串及中文拼音工具
 
 validate：各种各样的合法性验证工具（身份证、手机号、邮编、URL等）
