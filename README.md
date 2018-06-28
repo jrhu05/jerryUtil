@@ -26,13 +26,9 @@ json：json有关（如json-map互转）
 
 math：BigDecimal及byte串转换
 
-qiniu：七牛云存储辅助上传工具
-
 qRCode：二维码生成工具
 
 random：常用随机码生成工具
-
-sms：阿里大鱼短信辅助工具
 
 spider：webmagic爬虫demo
 
@@ -48,5 +44,5 @@ zip：tar.gz以及zip文件压缩与解压缩
 
 欢迎补充，如有错误也请多多指教。
 
-另base64decoder、rsa3des、QRCode、taobao-sdk-jar-auto这几个jar包在maven的中央仓库找不到，所以放到了lib目录下。
+另base64decoder、rsa3des、QRCode这几个jar包在maven的中央仓库找不到，所以放到了lib目录下。
 

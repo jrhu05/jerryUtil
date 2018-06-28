@@ -168,40 +168,11 @@
 			<artifactId>core</artifactId>
 			<version>3.3.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.8.2</version>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
 		<dependency>
 			<groupId>com.google.zxing</groupId>
 			<artifactId>javase</artifactId>
 			<version>3.3.0</version>
-		</dependency>
-
-
-		<!-- aliyun -->
-		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
-		<dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-core</artifactId>
-			<version>3.2.8</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.aliyun.mns/aliyun-sdk-mns -->
-		<dependency>
-			<groupId>com.aliyun.mns</groupId>
-			<artifactId>aliyun-sdk-mns</artifactId>
-			<version>1.1.8</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-sms -->
-		<dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-sms</artifactId>
-			<version>3.0.0-rc1</version>
 		</dependency>
 
 		<!-- jdom xmlUtil必须 -->
@@ -218,23 +189,6 @@
 			<groupId>com.belerweb</groupId>
 			<artifactId>pinyin4j</artifactId>
 			<version>2.5.1</version>
-		</dependency>
-
-		<!-- 七牛云sdk -->
-		<!-- https://mvnrepository.com/artifact/com.qiniu/qiniu-java-sdk -->
-		<dependency>
-			<groupId>com.qiniu</groupId>
-			<artifactId>qiniu-java-sdk</artifactId>
-			<version>7.2.11</version>
-		</dependency>
-
-		<!-- 阿里大于JAR -->
-		<dependency>
-			<groupId>taobao-sdk-jar-auto</groupId>
-			<artifactId>taobao-sdk-jar-auto</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/taobao-sdk-java-auto-1.0.jar</systemPath>
 		</dependency>
 
 		<!-- 二维码 -->
