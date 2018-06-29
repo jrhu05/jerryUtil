@@ -13,10 +13,9 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.junit.Test;
 
 /**
  * zip压缩、解压缩工具类
@@ -34,7 +33,7 @@ public class ZipUtil {
     @SuppressWarnings("unchecked")    
     public static void unzip(String zipFilePath, String unzipFilePath, boolean includeZipFileName) throws Exception    
     {    
-        if (StringUtils.isEmpty(zipFilePath) || StringUtils.isEmpty(unzipFilePath))    
+        if (StringUtils.isBlank(zipFilePath) || StringUtils.isBlank(unzipFilePath))    
         {    
             throw new RuntimeException("zip file path is null!");              
         }    
@@ -199,8 +198,7 @@ public class ZipUtil {
 		}
 	}
 	
-	@Test
-	public void testToZip() {
+	public static void main(String[] args) {
 		FileOutputStream out;
 		try {
 			out = new FileOutputStream("D:\\work\\temp\\test.zip");
@@ -209,6 +207,7 @@ public class ZipUtil {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
 	}
     
 }
